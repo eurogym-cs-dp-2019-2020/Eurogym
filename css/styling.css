@@ -100,16 +100,44 @@
     padding-right: 8px;
     box-sizing: border-box;
 }
+.navteam{
+    color: red;
+}
+.nav1{
+    background-color: white;
+}
        
- .nav {
-            background-color: aqua;
+ 
+.nav {
+            display: flex;
+            flex-direction: row;
+            background-color: blue;
             padding: 5px;
+            justify-content: space-around;
 
 
         }
 
         .navmiddle {
-            background-color: brown;
+            
+            background-color: red;
+            padding : 30px;
+           margin: 10px;
+        }
+        .navprimary{
+            background-color:yellow;
+            padding : 30px;
+           margin: 10px;
+        }
+        .navkinder{
+            background-color:lightblue;
+            padding : 30px;
+           margin: 10px;
+        }
+        .navmanage{
+            background-color: green;
+            padding : 30px;
+           margin: 10px;
         }
 
         body {
@@ -117,31 +145,68 @@
         }
 
         .management_team {
+
+            align-content: flex-end;
+            display: flex;
+            flex-shrink: 1;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            flex-wrap:wrap;
             background-color: fuchsia;
         }
 
         .kindergarden {
+            align-content: flex-end;
+            display: flex;
+            flex-shrink: 1;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            flex-wrap:wrap;
             background-color: green;
 
         }
 
         .primary {
+            align-content: flex-end;
+            display: flex;
+            flex-shrink: 1;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            flex-wrap:wrap;
+            
             background-color: orangered;
         }
 
         .middle {
+            align-content: flex-end;
+            display: flex;
+            flex-shrink: 1;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            flex-wrap:wrap;
+            
+            
+            background-color: red;
+            padding : 30px;
+           margin: 10px;
             background-color: rgb(8, 214, 1);
 
         }
 
         header {
             background-color: white;
-            padding-top: 40px;
+            padding-top: 150px;
             height: 120px;
 
         }
 
         footer {
+            display: flex;
+            flex-direction: row;
             background-color: rgb(0, 0, 0);
             color: white;
         }
