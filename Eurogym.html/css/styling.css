@@ -86,11 +86,24 @@
 
 .navteam {
     color: red;
-    
+}
+
+A {
+    color: black;
+}
+
+A:active {
+    color: white;
+}
+
+A:visited {
+    color: black;
 }
 
 .nav1 {
-    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .main {
@@ -185,15 +198,10 @@ header {
     height: 120px;
 }
 
-.nav1 {
-    background-color: blue;
-    height: 120;
-    padding-top: 30;
-}
-
 footer {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: rgb(0, 0, 0);
     color: white;
 }
@@ -208,6 +216,15 @@ footer {
 
 .kindert {
     color: blue;
+}
+
+.address {}
+
+.info {
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .middlet {
