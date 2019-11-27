@@ -92,6 +92,11 @@ A {
     color: black;
 }
 
+/* Body color */
+body, .nav {
+    background-color: #ededed;
+}
+
 A:active {
     color: white;
 }
@@ -104,6 +109,7 @@ A:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-content: center;
 }
 
 .main {
@@ -117,7 +123,6 @@ A:visited {
 .nav {
     display: flex;
     flex-direction: row;
-    background-color: white;
     padding: 5px;
     justify-content: space-around;
 }
@@ -144,11 +149,7 @@ A:visited {
     background-color: green;
     padding: 30px;
     margin: 10px;
-}
-
-body {
-    background-color: white;
-}
+}   
 
 .management_team {
     align-content: flex-end;
