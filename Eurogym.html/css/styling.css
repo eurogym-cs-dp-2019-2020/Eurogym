@@ -120,6 +120,11 @@ A {
     color: black;
 }
 
+/* Body color */
+body, .nav {
+    background-color: #ededed;
+}
+
 A:active {
     color: white;
 }
@@ -146,7 +151,6 @@ A:visited {
 .nav {
     display: flex;
     flex-direction: row;
-    background-color: white;
     padding: 5px;
     justify-content: space-around;
     font-size: 20px;
