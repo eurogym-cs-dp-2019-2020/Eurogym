@@ -120,11 +120,6 @@ A {
     color: black;
 }
 
-/* Body color */
-body, .nav {
-    background-color: #ededed;
-}
-
 A:active {
     color: white;
 }
@@ -136,13 +131,8 @@ A:visited {
 .nav1 {
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     justify-content: flex-start;
     
-=======
-    justify-content: space-around;
-    align-content: center;
->>>>>>> edc551ca871f25dd54242853f605bdc10034f917
 }
 
 .main {
@@ -156,6 +146,7 @@ A:visited {
 .nav {
     display: flex;
     flex-direction: row;
+    background-color: white;
     padding: 5px;
     justify-content: space-around;
     font-size: 20px;
@@ -186,7 +177,6 @@ A:visited {
     background-color: rgb(28, 28, 173);
     padding: 30px;
     margin: 10px;
-<<<<<<< HEAD
 }
 .tteam{
     font-size: 56.5pt;
@@ -201,9 +191,6 @@ body {
     background-color: white;
     font-family: 'woff';
 }
-=======
-}   
->>>>>>> edc551ca871f25dd54242853f605bdc10034f917
 
 .management_team {
     align-content: flex-end;
