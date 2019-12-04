@@ -77,15 +77,43 @@
 .col-20 {
     flex-basis: 100%;
 }
+@font-face {
+    font-family: woff;
+    font-display: swap;
+    src: url('woff.ttf');
+  }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16, .col-17, .col-18, .col-20 {
     padding-left: 8px;
     padding-right: 8px;
     box-sizing: border-box;
 }
+.logo{
+    display: flex;
+    flex: right;
+}
 
 .navteam {
     color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    font-size: 13.5pt;
+}
+.navedu{
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.navadd{
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.naveng{
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
 }
 
 A {
@@ -103,7 +131,8 @@ A:visited {
 .nav1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+    
 }
 
 .main {
@@ -120,34 +149,47 @@ A:visited {
     background-color: white;
     padding: 5px;
     justify-content: space-around;
+    font-size: 20px;
+
 }
 
 .navmiddle {
-    background-color: red;
+   
+    background-color:rgb(204, 22, 22);;
     padding: 30px;
     margin: 10px;
+    padding-bottom: 120px;
 }
 
 .navprimary {
-    background-color: yellow;
+    background-color: rgb(248, 163, 6);
     padding: 30px;
     margin: 10px;
 }
 
 .navkinder {
-    background-color: lightblue;
+    background-color: rgb(10, 126, 10);
     padding: 30px;
     margin: 10px;
 }
 
 .navmanage {
-    background-color: green;
+    background-color: rgb(28, 28, 173);
     padding: 30px;
     margin: 10px;
 }
-
+.tteam{
+    font-size: 56.5pt;
+}
+hr {
+    border: none; 
+    background-color:blue; 
+    color: blue;
+    height: 2px; 
+}
 body {
     background-color: white;
+    font-family: 'woff';
 }
 
 .management_team {
@@ -155,7 +197,6 @@ body {
     display: flex;
     flex-shrink: 1;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
     color: blue;
 }
@@ -165,7 +206,6 @@ body {
     display: flex;
     flex-shrink: 1;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
     color: blue;
 }
@@ -175,7 +215,6 @@ body {
     display: flex;
     flex-shrink: 1;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
     color: blue;
 }
@@ -185,7 +224,6 @@ body {
     display: flex;
     flex-shrink: 1;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
     color: blue;
     padding: 30px;
@@ -193,28 +231,41 @@ body {
 }
 
 header {
-    background-color: blue;
-    padding-top: 150px;
-    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    background-color: rgb(29, 62, 172);
+    height: 90px;
+    font-size: 20px;
+    padding-top: 30px;
+    border: none;
+    padding-bottom: 30px;
+  
 }
 
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-flow: column;
+    flex-direction: column;
+    
     background-color: rgb(0, 0, 0);
     color: white;
+   
+    padding-left: 20px;
 }
 
 .managet {
     color: blue;
+    font-size :24pt ;
 }
 
 .primaryt {
     color: blue;
+    font-size :24pt ;
 }
 
 .kindert {
+    font-size :24pt ;
     color: blue;
 }
 
@@ -229,15 +280,47 @@ footer {
 
 .middlet {
     color: blue;
+    font-size :24pt ;
 }
-
-a :hover{
+A{
+    
+    text-decoration: none;
+}
+A:active{
     color: red;
 }
-a :visited{
+A :hover{
+    color: red;
+    text-decoration: none;
+    
+}
+A:visited{
+    
     text-decoration: none;
 }
 
-a :link {
-    text-decoration: nones;
+.foott{
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+font-size: 25px;
+}
+.text1{
+    font-size:15px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footinfo{
+    padding-left: 20px;
+}
+.footinfot{
+    
+    font-size: 40px;
+}
+.hr1{
+    border: none; 
+    background-color: white; 
+    color: white;
+    height: 2px; 
 }
