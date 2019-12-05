@@ -1,0 +1,547 @@
+@font-face {
+    font-family: woff;
+    font-display: swap;
+    src: url('woff.ttf');
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 1200px;
+}
+
+.col-s-1, .col-s-2, .col-s-3, .col-s-4, .col-s-5, .col-s-6, .col-s-7, .col-s-8, .col-s-9, .col-s-10, .col-s-11, .col-s-12, .col-s-13, .col-s-14, .col-s-15, .col-s-16, .col-s-17, .col-s-18, .col-s-20 {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.col-s-1 {
+    flex-basis: 5%;
+}
+
+.col-s-2 {
+    flex-basis: 10%;
+}
+
+.col-s-3 {
+    flex-basis: 15%;
+}
+
+.col-s-4 {
+    flex-basis: 20%;
+}
+
+.col-s-5 {
+    flex-basis: 25%;
+}
+
+.col-s-6 {
+    flex-basis: 30%;
+}
+
+.col-s-7 {
+    flex-basis: 35%;
+}
+
+.col-s-8 {
+    flex-basis: 40%;
+}
+
+.col-s-9 {
+    flex-basis: 45%;
+}
+
+.col-s-10 {
+    flex-basis: 50%;
+}
+
+.col-s-11 {
+    flex-basis: 55%;
+}
+
+.col-s-12 {
+    flex-basis: 60%;
+}
+
+.col-s-13 {
+    flex-basis: 65%;
+}
+
+.col-s-14 {
+    flex-basis: 70%;
+}
+
+.col-s-15 {
+    flex-basis: 75%;
+}
+
+.col-s-16 {
+    flex-basis: 80%;
+}
+
+.col-s-17 {
+    flex-basis: 85%;
+}
+
+.col-s-18 {
+    flex-basis: 90%;
+}
+
+.col-s-19 {
+    flex-basis: 95%;
+}
+
+.col-s-20 {
+    flex-basis: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    flex: right;
+}
+
+.navteam {
+    color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    font-size: 13.5pt;
+}
+
+.navedu {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.navadd {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.naveng {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+/* Body color */
+
+body, .nav {
+    background-color: #ededed;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 1200px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-left:100%;
+    padding-right:100%;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.navmiddle {
+    background-color: rgb(204, 22, 22);
+    ;
+    padding: 30px;
+    margin: 10px;
+    padding-bottom: 120px;
+}
+
+.navprimary {
+    background-color: rgb(248, 163, 6);
+    padding: 30px;
+    margin: 10px;
+}
+
+.navkinder {
+    background-color: rgb(10, 126, 10);
+    padding: 30px;
+    margin: 10px;
+}
+
+.navmanage {
+    background-color: rgb(28, 28, 173);
+    padding: 30px;
+    margin: 10px;
+}
+
+.tteam {
+    font-size: 56.5pt;
+}
+
+hr {
+    border: none;
+    background-color: blue;
+    color: blue;
+    height: 2px;
+}
+
+body {
+    background-color: white;
+    font-family: 'woff';
+}
+
+.management_team {
+    align-content: flex-end;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue;
+}
+
+.kindergarden {
+    align-content: flex-end;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue;
+}
+
+.primary {
+    align-content: flex-end;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue;
+}
+
+.middle {
+    align-content: flex-end;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue;
+    padding: 30px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    background-color: rgb(29, 62, 172);
+    height: 90px;
+    font-size: 20px;
+    padding-top: 30px;
+    border: none;
+    padding-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-left: 20px;
+}
+
+.managet {
+    color: blue;
+    font-size: 24pt;
+}
+
+.primaryt {
+    color: blue;
+    font-size: 24pt;
+}
+
+.kindert {
+    font-size: 24pt;
+    color: blue;
+}
+
+.address {}
+
+.info {
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.middlet {
+    color: blue;
+    font-size: 24pt;
+}
+
+A {
+    text-decoration: none;
+}
+
+A:active {
+    color: red;
+}
+
+A :hover {
+    color: red;
+    text-decoration: none;
+}
+
+A:visited {
+    text-decoration: none;
+}
+
+.foott {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.text1 {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footinfo {
+    padding-left: 20px;
+}
+
+.footinfot {
+    font-size: 40px;
+}
+
+.hr1 {
+    border: none;
+    background-color: white;
+    color: white;
+    height: 2px;
+}
+
+@media (min-width: 768px) {
+    .col-m-1, .col-m-2, .col-m-3, .col-m-4, .col-m-5, .col-m-6, .col-m-7, .col-m-8, .col-m-9, .col-m-10, .col-m-11, .col-m-12, .col-m-13, .col-m-14, .col-m-15, .col-m-16, .col-m-17, .col-m-18, .col-m-20 {
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+    }
+    .col-m-1 {
+        flex-basis: 5%;
+    }
+    .col-m-2 {
+        flex-basis: 10%;
+    }
+    .col-m-3 {
+        flex-basis: 15%;
+    }
+    .col-m-4 {
+        flex-basis: 20%;
+    }
+    .col-m-5 {
+        flex-basis: 25%;
+    }
+    .col-m-6 {
+        flex-basis: 30%;
+    }
+    .col-m-7 {
+        flex-basis: 35%;
+    }
+    .col-m-8 {
+        flex-basis: 40%;
+    }
+    .col-m-9 {
+        flex-basis: 45%;
+    }
+    .col-m-10 {
+        flex-basis: 50%;
+    }
+    .col-m-11 {
+        flex-basis: 55%;
+    }
+    .col-m-12 {
+        flex-basis: 60%;
+    }
+    .col-m-13 {
+        flex-basis: 65%;
+    }
+    .col-m-14 {
+        flex-basis: 70%;
+    }
+    .col-m-15 {
+        flex-basis: 75%;
+    }
+    .col-m-16 {
+        flex-basis: 80%;
+    }
+    .col-m-17 {
+        flex-basis: 85%;
+    }
+    .col-m-18 {
+        flex-basis: 90%;
+    }
+    .col-m-19 {
+        flex-basis: 95%;
+    }
+    .col-m-20 {
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    header img {
+        display: block;
+    }
+    .col-l-1, .col-l-2, .col-l-3, .col-l-4, .col-l-5, .col-l-6, .col-l-7, .col-l-8, .col-l-9, .col-l-10, .col-l-11, .col-l-12, .col-l-13, .col-l-14, .col-l-15, .col-l-16, .col-l-17, .col-l-18, .col-l-20 {
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+    }
+    .col-l-1 {
+        flex-basis: 5%;
+    }
+    .col-l-2 {
+        flex-basis: 10%;
+    }
+    .col-l-3 {
+        flex-basis: 15%;
+    }
+    .col-l-4 {
+        flex-basis: 20%;
+    }
+    .col-l-5 {
+        flex-basis: 25%;
+    }
+    .col-l-6 {
+        flex-basis: 30%;
+    }
+    .col-l-7 {
+        flex-basis: 35%;
+    }
+    .col-l-8 {
+        flex-basis: 40%;
+    }
+    .col-l-9 {
+        flex-basis: 45%;
+    }
+    .col-l-10 {
+        flex-basis: 50%;
+    }
+    .col-l-11 {
+        flex-basis: 55%;
+    }
+    .col-l-12 {
+        flex-basis: 60%;
+    }
+    .col-l-13 {
+        flex-basis: 65%;
+    }
+    .col-l-14 {
+        flex-basis: 70%;
+    }
+    .col-l-15 {
+        flex-basis: 75%;
+    }
+    .col-l-16 {
+        flex-basis: 80%;
+    }
+    .col-l-17 {
+        flex-basis: 85%;
+    }
+    .col-l-18 {
+        flex-basis: 90%;
+    }
+    .col-l-19 {
+        flex-basis: 95%;
+    }
+    .col-l-20 {
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-13, .col-xl-14, .col-xl-15, .col-xl-16, .col-xl-17, .col-xl-18, .col-xl-20 {
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+    }
+    .col-xl-1 {
+        flex-basis: 5%;
+    }
+    .col-xl-2 {
+        flex-basis: 10%;
+    }
+    .col-xl-3 {
+        flex-basis: 15%;
+    }
+    .col-xl-4 {
+        flex-basis: 20%;
+    }
+    .col-xl-5 {
+        flex-basis: 25%;
+    }
+    .col-xl-6 {
+        flex-basis: 30%;
+    }
+    .col-xl-7 {
+        flex-basis: 35%;
+    }
+    .col-xl-8 {
+        flex-basis: 40%;
+    }
+    .col-xl-9 {
+        flex-basis: 45%;
+    }
+    .col-xl-10 {
+        flex-basis: 50%;
+    }
+    .col-xl-11 {
+        flex-basis: 55%;
+    }
+    .col-xl-12 {
+        flex-basis: 60%;
+    }
+    .col-xl-13 {
+        flex-basis: 65%;
+    }
+    .col-xl-14 {
+        flex-basis: 70%;
+    }
+    .col-xl-15 {
+        flex-basis: 75%;
+    }
+    .col-xl-16 {
+        flex-basis: 80%;
+    }
+    .col-xl-17 {
+        flex-basis: 85%;
+    }
+    .col-xl-18 {
+        flex-basis: 90%;
+    }
+    .col-xl-19 {
+        flex-basis: 95%;
+    }
+    .col-xl-20 {
+        flex-basis: 100%;
+    }
+}

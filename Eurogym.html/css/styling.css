@@ -116,21 +116,11 @@
     box-sizing: border-box;
 }
 
-A {
-    color: black;
-}
+
 
 /* Body color */
 body, .nav {
     background-color: #ededed;
-}
-
-A:active {
-    color: white;
-}
-
-A:visited {
-    color: black;
 }
 
 .nav1 {
