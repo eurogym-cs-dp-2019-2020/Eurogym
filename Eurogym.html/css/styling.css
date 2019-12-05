@@ -120,7 +120,7 @@
 
 /* Body color */
 body, .nav {
-    background-color: #ededed;
+    background-color: white;
 }
 
 .nav1 {
@@ -140,13 +140,16 @@ body, .nav {
 
 .nav {
     display: flex;
+    background: #ededed;
     flex-direction: row;
     padding: 5px;
     justify-content: space-around;
     font-size: 20px;
 
 }
-
+A IMG{
+    border: 0;
+}
 .navmiddle {
    
     background-color:rgb(204, 22, 22);;
@@ -182,6 +185,7 @@ hr {
     height: 2px; 
 }
 body {
+    background: #ededed;
     background-color: white;
     font-family: 'woff';
 }
@@ -228,12 +232,12 @@ header {
     display: flex;
     justify-content: space-between;
     flex-flow: row;
-    background-color: rgb(29, 62, 172);
-    height: 90px;
+    background-color: rgb(41, 41, 190);
+    height: 120px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     font-size: 20px;
-    padding-top: 30px;
-    border: none;
-    padding-bottom: 30px;
+    
   
 }
 
@@ -242,7 +246,7 @@ footer {
     flex-flow: column;
     flex-direction: column;
     
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(33,33,33);
     color: white;
    
     padding-left: 20px;
@@ -277,15 +281,15 @@ footer {
     font-size :24pt ;
 }
 A{
-    
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 A:active{
     color: red;
 }
-A :hover{
+A:hover{
     color: red;
-    text-decoration: none;
+    
     
 }
 A:visited{
@@ -317,4 +321,7 @@ font-size: 25px;
     background-color: white; 
     color: white;
     height: 2px; 
+}
+.foothyper{
+    color: white;
 }
